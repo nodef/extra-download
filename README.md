@@ -1,6 +1,5 @@
 [Download] and extract files (with [progress]).
 
-
 ## console
 
 ```bash
@@ -26,7 +25,7 @@ $ download --header 'authorization: Basic foo:bar' http://foo.com/file.zip
 const fs = require('fs');
 const download = require('extra-download');
 // download(<url>, [out], [options])
-// -> Promise<Buffer> & <Duplex Stream>
+// -> Promise<Buffer> & <Duplex Stream> with additional events
 
 // [options]: {
 //   extract: false, // try decompressing the file?
@@ -53,3 +52,16 @@ var urls = [
 await Promise.all(urls.map(url => download(url, 'dist')));
 console.log('files downloaded!');
 ```
+
+
+
+[![Merferry](https://i.imgur.com/lKwA6yH.jpg)](https://merferry.github.io)
+> See about [Duplex stream], and [additional events].
+> See the original modules: [download], [download-cli].
+
+[Duplex stream]: https://nodejs.org/api/stream.html#stream_class_stream_duplex
+[additional events]: https://github.com/sindresorhus/got#streams-1
+[Download]: https://www.npmjs.com/package/download
+[download]: https://www.npmjs.com/package/download
+[download-cli]: https://www.npmjs.com/package/download-cli
+[progress]: https://www.npmjs.com/package/progress
