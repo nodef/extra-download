@@ -56,7 +56,7 @@ console.log('files downloaded!');
 
 
 [![Merferry](https://i.imgur.com/lKwA6yH.jpg)](https://merferry.github.io)
-> See about [Duplex stream], and [additional events].
+> See about [Duplex stream], and [additional events].<br>
 > See the original modules: [download], [download-cli].
 
 [Duplex stream]: https://nodejs.org/api/stream.html#stream_class_stream_duplex

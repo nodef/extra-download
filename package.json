@@ -1,6 +1,6 @@
 {
   "name": "extra-download",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Download and extract files (with progress).",
   "main": "index.js",
   "preferGlobal": true,
