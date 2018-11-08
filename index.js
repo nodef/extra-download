@@ -1,3 +1,4 @@
+const downloadCli = require('download-cli');
 const download = require('download');
 const Progress = require('progress');
 

@@ -1,8 +1,12 @@
 {
   "name": "extra-download",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Download and extract files (with progress).",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "download": "node_modules/download-cli/cli.js"
+  },
   "scripts": {
     "test": "exit"
   },
@@ -31,6 +35,7 @@
   "homepage": "https://github.com/nodef/extra-download#readme",
   "dependencies": {
     "download": "^7.1.0",
+    "download-cli": "^1.1.1",
     "progress": "^2.0.1"
   }
 }
