@@ -1,0 +1,32 @@
+{
+  "name": "extra-download",
+  "version": "0.0.1",
+  "description": "Download and extract files (with progress).",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/extra-download.git"
+  },
+  "keywords": [
+    "extra",
+    "download",
+    "extract",
+    "file",
+    "progress",
+    "http",
+    "https",
+    "shell",
+    "console",
+    "cli",
+    "merferry"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodef/extra-download/issues"
+  },
+  "homepage": "https://github.com/nodef/extra-download#readme"
+}
