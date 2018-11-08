@@ -19,7 +19,7 @@ const OPTIONS = {
  * @param {object} [opt] Options for "download", progress, onresponse.
  */
 function edownload(url, dst, opt) {
-  var o = opt || typeof dst==='string'? opt:dst;
+  var o = (opt || typeof dst==='string'? opt:dst)||{};
   var bar = o.progress===undefined? new Progress(FORMAT, OPTIONS):o.progress;
   return download(url, dst, opt).on('response', o.onresponse||(res => {
     if(bar==null) return;
