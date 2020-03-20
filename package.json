@@ -1,6 +1,6 @@
 {
   "name": "@nodef/extra-download",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Download and extract files (with progress).",
   "main": "index.js",
   "preferGlobal": true,
@@ -36,6 +36,6 @@
   "dependencies": {
     "download": "^7.1.0",
     "download-cli": "^1.1.1",
-    "progress": "^2.0.1"
+    "progress": "^2.0.3"
   }
 }
