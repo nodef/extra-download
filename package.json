@@ -1,6 +1,6 @@
 {
   "name": "@nodef/extra-download",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Download and extract files (with progress).",
   "main": "index.js",
   "preferGlobal": true,
