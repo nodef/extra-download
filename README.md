@@ -59,6 +59,8 @@ console.log('files downloaded!');
 > See about [Duplex stream], and [additional events].<br>
 > See the original modules: [download], [download-cli].
 
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/extra-download)
+
 [Duplex stream]: https://nodejs.org/api/stream.html#stream_class_stream_duplex
 [additional events]: https://github.com/sindresorhus/got#streams-1
 [Download]: https://www.npmjs.com/package/download
